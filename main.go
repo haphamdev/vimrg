@@ -8,12 +8,12 @@ import (
 )
 
 func main() {
-	if len(os.Args) < 3 {
+	if len(os.Args) < 2 {
 		return
 	}
 
 	//Only take the 3rd argument and ignore the rest
-	query := os.Args[2]
+	query := os.Args[1]
 
 	elements := strings.SplitN(query, ">", 2)
 
