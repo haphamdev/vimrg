@@ -4,7 +4,7 @@ Little tool to support glob for fzf-lua in nvim
 # How to use:
 ## Build the tool
 - Clone the project
-- `go build`
+- Build: if you prefer Golang: `go build`. If you prefer Rust `cargo build --release`
 - Copy `vimrg` to your PATH
 ## Configure nvim
 - Install [fzf-lua](https://github.com/ibhagwan/fzf-lua)
