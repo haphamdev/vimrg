@@ -1,0 +1,9 @@
+[package]
+name = "vimrg"
+version = "0.1.0"
+authors = ["Ha Pham <ha.pham.ext@personio.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
